@@ -1,0 +1,121 @@
+.wisdom-container{
+    width: 100%;
+    height: 736px;
+    display: flex;
+    justify-content: center;
+}
+
+.wisdom-container > img{
+    width: 100%;
+}
+
+.wisdom-container > .wisdom_XMLID{
+    position: absolute;
+    width: 163px;
+    height: 200px;
+    left: 30%;
+    top: 135rem;
+}
+
+.wisdom-container > .wisdom_chakra{    
+    position: absolute;
+    width: 241px;
+    height: 241px;
+    left: 40px;
+    top: 2059px;
+}
+
+.wisdom-container > .wisdom_chakra_mandala{    
+    position: absolute;
+    width: 241px;
+    height: 241px;
+    left: 84.1%;
+    top: 142rem;
+}
+
+.wisdom-container > h1{
+    position: absolute;
+    top:112rem;
+    left: 3rem;
+    width: 335px;
+    height: 109px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+
+    /* or 118% */
+    letter-spacing: -0.08px;
+
+    color: #000000;
+}
+
+.wisdom-container > p{
+    position: absolute;
+    top:114rem;
+    left: 80rem;
+}
+
+.wisdom-card-container{
+    width: 65rem;
+    height: 33rem;
+    position: absolute;
+    top: 120rem;
+    left: 28.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wisdom-card{
+    width: 27rem;
+    height: 28rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 10px;
+}
+
+.wisdom-card > img{
+    margin-top: 15px;
+    width: 404px;
+    height: 241px;
+}
+
+.wisdom-card > h2{
+    width: 404px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 20px;
+}
+
+.wisdom-card > p{
+    width: 404px;
+    height: 48px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 20px;
+}
+
+.date{
+    margin-top: 20px;
+    display: flex;
+    width: 404px;
+    justify-content: space-between;
+}
+
+.date > p{
+    color: #59D4FF;
+    font-weight: 600;
+}
+
+
+
